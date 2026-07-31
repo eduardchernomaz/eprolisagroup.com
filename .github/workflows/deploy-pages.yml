@@ -27,7 +27,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir _site
-          cp index.html logo.svg CNAME _site/
+          cp index.html logo.svg favicon.svg favicon.png CNAME _site/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
